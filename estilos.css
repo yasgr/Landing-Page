@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica;
+} 
+/*-------------------NAVBAR------------------*/   
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+#nav-bar .btn-primary{
+    box-shadow: none;
+    border: none;
+    border-radius: 30px;
+    background-color: rgba(21, 0, 114);   
+}
+.navbar{
+ padding: 0 !important;
+}
+.navbar-brand img{
+    height: 40px;
+    padding-left: 200px;
+}
+.navbar-nav li{
+    padding: 0 10px;  
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler{
+    outline: none !important;
+}
+.boton{
+    background-color: #660bbb;
+}
+.fondo{
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #660bbb 0%, #C850C0 26%, #ffc861 80%, #00aeff 100%);
+}
+
+/*------------------banner section-------------------*/
+
+#banner{
+    color: #fff;
+    padding-top: 4%;
+    padding-bottom: 15%;
+}
+.promo-title{
+    font-size: 65px;
+    margin-top: 90px;
+    font-family: Helvetica;
+}
+.promo-sub{
+    font-family: Helvetica;
+    font-size: 18px;
+}
+.play-btn{
+    width: 175px;
+    margin: 20px;   
+}
+
+/*--------------features---------------------------*/
+.card1{
+    width: 70%;   
+    margin-left: auto;
+    margin-right: auto;
+}
+.card-text{
+    font-family: Helvetica;
+    font-size:xx-large;
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
+
+#features{
+    padding-top: 10%;
+}
+.features{
+   text-align: center;
+   padding-bottom: 120px;
+
+}
+.bi{
+    color: rgb(153, 2, 153);
+}
+.font-adjust{
+    width: 300px;
+    height: 300px;
+}
+.car-img{
+    width: 20%;   
+}
+/*-----------------features2---------*/
+#features2{
+    background: #edf5ff;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+.about-title{
+    font-size: 55px;;
+    font-weight: 600;
+    margin-top: 8%;
+
+}
+#features2 .btn-secondary{
+    box-shadow: none;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(116, 0, 194);
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*---------------prices----------*/
+
+/* BOTÓN SLIDER The switch - the box around the slider */
+.textslider{
+    color: purple;
+    font-weight: 500;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+  
+/* Hide default HTML checkbox */
+.switch input {
+opacity: 0;
+width: 0;
+height: 0;
+}
+  
+/* The slider */
+.slider {
+position: absolute;
+cursor: pointer;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgb(116, 0, 194);
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+.slider:before {
+position: absolute;
+content: "";
+height: 26px;
+width: 26px;
+left: 4px;
+bottom: 4px;
+background-color: white;
+-webkit-transition: .4s;
+transition: .4s;
+}
+
+input:checked + .slider {
+background-color: rgb(116, 0, 194);
+}
+
+input:focus + .slider {
+box-shadow: 0 0 1px rgb(116, 0, 194);
+}
+
+input:checked + .slider:before {
+-webkit-transform: translateX(26px);
+-ms-transform: translateX(26px);
+transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+border-radius: 34px;
+}
+.slider.round:before {
+border-radius: 50%;
+}
+
+/*--------------END SLIDER--------------------*/
+
+#prices1{
+    text-align: center;
+}
+#prices{ 
+    text-align: center;
+}
+ul {
+    list-style-type: none;   
+}
+.prices-img{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+#prices .btn-secondary{
+    box-shadow: none;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(116, 0, 194);
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#borde {
+    padding: 20px;
+}
+#borde .col-md-4 {
+    border: 2px solid hsl(208, 100%, 97%);
+    border-radius: 15px;
+    padding-bottom: 40px;  
+  }
+#borde .h1{
+   margin-bottom: 20px;
+}
+
+/*suscribe*/
+#suscribe{
+    color: #fff;
+    padding-top: 4%;
+    padding-bottom: 15%;  
+}
+.suscribe-title{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    margin-top: 90px;
+}
+ /*footer*/
+#footer{
+    background-color: #d4dee9;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    color: grey;
+}
+.footer-img{
+    width: 100px;
+   
+}
+.footer-box{
+    padding: 20px;
+}
+.footer-box img{
+    width: 120px;    
+}
+.ftitles{
+   color: black;
+}
+.copy{
+    text-align: center;
+   margin-bottom: 20px;
+   color: grey;
+}
